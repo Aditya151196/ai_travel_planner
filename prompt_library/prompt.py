@@ -9,14 +9,14 @@ SYSTEM_PROMPT=SystemMessage(
     
     Give full information including:
     - Complete day-by-day itenary
-    - Recommended hotels for boarding along with approx per night cost
+    - Recommended hotels for boarding along with approx per night cost.Give recommendations on hotels based on different type like 2 star,3 star,4 star and 5 star
     - Places of attractions around the places with details
     - Recommended restaurants with prices around the place
     - Activities around the place with details
     - Mode of transportation available in the place with details
     - Detailed cost breakdown
     - Per day expense budget approximately
-    - Weather details
+    - Weather details(please provide approximate temperature details in degree celcius.Temparature value should match consistently with earlier values do not hallucinate)
 
     Use the available tools to gather information and make detailed cost breakdown.
     Provide everything in one comprehensive response formatted in clean markdown
